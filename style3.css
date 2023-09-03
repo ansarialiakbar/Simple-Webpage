@@ -1,0 +1,99 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+    
+body{
+    background-image: url(pexels-maxyne-barcel-10402282\ 1.png );
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   
+  
+    
+}
+ nav div img{
+    width: 100px;
+    padding-right: 300px;
+ }
+li{
+    list-style: none;
+}
+nav{
+    /* padding: 5px 2%; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 10px; */
+    
+}
+nav ul li{
+   color: rgb(247, 247, 95);
+   padding-right: 100px;
+   /* margin-right: 20px; */
+    
+}
+nav div button{
+    background-color: rgb(236, 81, 81);
+    padding: 6px 18px ;
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border: 1px;
+}
+ .main-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    padding: 10% 0 0 0;
+}
+.main-item div h1{
+    font-size: 4.0rem;
+    font-weight: 900;
+    font-family: 'Delicious Handrawn', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poppins', sans-serif;
+   line-height: 70px;
+   /* margin: 0 100px; */
+   color: rgb(214, 214, 51);
+
+}
+.main-item div h1 span{
+    text-align: center;
+    padding-left: 75px;
+}
+
+.main-item div button{
+    margin-left: 36%;
+    margin-top: 12%;
+    color: white;
+    background-color: rgb(243, 114, 114);
+    padding: 10px 62px;
+    margin-right: 40px;
+    margin-bottom: 2%;
+    font-weight: 800;
+    border: 1px ;
+}
+footer {
+    display: flex;
+    align-items: end;
+    justify-content: end;   
+}
+footer div img{
+    width: 100px;
+}
